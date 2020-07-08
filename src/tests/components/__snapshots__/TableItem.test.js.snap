@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render component should be render 1`] = `
+<div
+  className="table-item"
+>
+  <div
+    className="date-container"
+  >
+    <span>
+      some day
+    </span>
+    <span
+      className="date"
+    >
+      some date
+    </span>
+  </div>
+  <img
+    alt="weather"
+    className="table-item-icon"
+    src="some icon"
+  />
+  <div
+    className="temp-container"
+  >
+    <span
+      className="max-temp"
+    >
+      20
+      °
+    </span>
+    <span>
+      /
+      15
+    </span>
+  </div>
+  <div
+    className="description"
+  >
+    some description
+  </div>
+  <div
+    className="humidity"
+  >
+    <span>
+      Hum.
+    </span>
+    80
+    %
+  </div>
+</div>
+`;

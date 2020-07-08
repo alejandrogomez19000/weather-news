@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render component should be render 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <WeatherTable
+    data={
+      Array [
+        Object {
+          "dt": "159258924248",
+          "humidity": 23,
+          "temp": Object {
+            "max": 10,
+            "min": 5,
+          },
+          "weather": Array [
+            Object {
+              "description": "some desc",
+              "icon": "some icon",
+            },
+          ],
+        },
+      ]
+    }
+  />
+</Context.Provider>
+`;
